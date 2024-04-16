@@ -32,29 +32,21 @@ print()
 while True:
     nome = input('Digite seu nickname: ')
     print()
-    
-    tuto = input('Sabe como jogar? s:sim n:não ')
 
-    if tuto == 's':
-        print()
-        print('certo...')
-        print()
-        
-        if  tuto == 'n':
-            print('_______Tutorial_______')
-            print(f'Olá {nome}, o jogo da forca se baseia em uma palavra')
-            print('secreta e aleatória. Você deve descobrir a palavra')
-            print('secreta chutando uma letra ou fazendo um palpite de qual')
-            print('é a palavra secreta.')
-            print()
-            print('A cada letra ou palpite errado, um membro do jogador é')
-            print('exposto na forca (cabeça, torso, pernas e braços). Quando')
-            print('todos os membros estiverem na forca, você perde.')
+    print('_______Tutorial_______')
+    print(f'Olá {nome}, o jogo da forca se baseia em uma palavra')
+    print('secreta e aleatória. Você deve descobrir a palavra')
+    print('secreta chutando uma letra ou fazendo um palpite de qual')
+    print('é a palavra secreta.')
+    print()
+    print('A cada letra ou palpite errado, um membro do jogador é')
+    print('exposto na forca (cabeça, torso, pernas e braços). Quando')
+    print('todos os membros estiverem na forca, você perde.')
 
-            print()
-        opc = input('Começar jogo? s:sim n:não ')
+    print()
+    opc = input('Começar jogo? s:sim n:não ')
 
-        if opc == 's':
+    if opc == 's':
             dificuldade = input('Escolha a dificuldade: '
                                 'fácil(1), difícil(2), IMPOSSIVEL(3): ')
             if dificuldade == '1':
@@ -103,6 +95,6 @@ while True:
             continue
 
 
-        else:
-            print('Digite a opção corretamente.')
-            break
+    else:
+        print('Digite a opção corretamente.')
+        break

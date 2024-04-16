@@ -5,7 +5,7 @@ Sol
 Flor
 Livro
 Mesa
-Lápis
+Lapis
 Bola
 Arvore
 Maca
