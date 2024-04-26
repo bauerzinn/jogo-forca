@@ -1,0 +1,18 @@
+[
+    {
+        "nickname": "Bauer",
+        "historico": {
+            "pontuacao": 400,
+            "vitorias": 1,
+            "derrotas": 0
+        }
+    },
+    {
+        "nickname": "bauer",
+        "historico": {
+            "pontuacao": 0,
+            "vitorias": 0,
+            "derrotas": 0
+        }
+    }
+]
